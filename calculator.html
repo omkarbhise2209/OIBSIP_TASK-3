@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="calculator.css">
+
+<title>simple calculator</title>
+</head>
+<body>
+
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+      <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+      <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+      <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+<form class="cal" name="form">
+<input type="text" name="txt" readonly="" class="display">
+<table>
+<tr>
+<td><span onclick="document.form.txt.value =''" class="num clear">C</span></td>
+<td><span onclick="document.form.txt.value +='0'" class="num">0</span></td>
+<td><span onclick="document.form.txt.value +='/'" class="num">/</span></td>
+<td><span onclick="document.form.txt.value +='*'" class="num">*</span></td>
+</tr>
+<tr>
+<td><span onclick="document.form.txt.value +='7'" class="num">7</span></td>
+<td><span onclick="document.form.txt.value +='8'" class="num">8</span></td>
+<td><span onclick="document.form.txt.value +='9'" class="num">9</span></td>
+<td><span onclick="document.form.txt.value +='-'" class="num">-</span></td>
+</tr>
+<tr>
+<td><span onclick="document.form.txt.value +='4'" class="num">4</span></td>
+<td><span onclick="document.form.txt.value +='5'" class="num">5</span></td>
+<td><span onclick="document.form.txt.value +='6'" class="num">6</span></td>
+<td><span onclick="document.form.txt.value +='+'" class="num plus">+</span></td>
+</tr>
+<tr>
+<td><span onclick="document.form.txt.value +='1'" class="num">1</span></td>
+<td><span onclick="document.form.txt.value +='2'" class="num">2</span></td>
+<td><span onclick="document.form.txt.value +='3'" class="num">3</span></td>
+<td><span onclick="document.form.txt.value =eval(form.txt.value)" class="btn glow-btn">=</span></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
